@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    color:darkgreen;
+    background-color: bisque;
+}
+
+.recipes {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.recipe h2 {
+    font-size: 18px;
+    margin: 16px 0;
+    text-align: center
+}
+
+.recipe img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recipe-link {
+  text-decoration: none;
+  color: #d35400;
+}
